@@ -1,0 +1,57 @@
+@font-face{
+	font-family:AmericanTypewriter;
+	src:url(../fonts/AmericanTypewriter);
+}
+
+* {
+  font-family: AmericanTypewriter;
+  /*border: 1px solid black;*/
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.map img{
+  width:100%;
+}
+
+.map {
+  padding-left:15px;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container {
+  clear: both;
+  *zoom: 1;
+  position: relative;
+}
+
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.container.front {
+  height: 200px;
+  width: 200px;
+  padding: 0px;
+}
+
+.container.front img{
+  height:auto;
+  width: 100%;
+}

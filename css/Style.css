@@ -1,0 +1,201 @@
+@font-face{
+	font-family:AmericanTypewriter;
+	src:url(fonts/AmericanTypewriter);
+}
+
+body{
+	background-color:#FFFFFF;
+	font-family:American Typewriter, Tahoma;
+}
+a {
+	color:#000000;
+}
+
+a:hover{
+	color:#000000;
+}
+
+.nav {
+	margin: 10px -2px 10px -2px;
+	padding: 10px 0 10px 0;
+	border: #000000 2px solid;
+}
+
+.jumbotron{
+	background-image:url("../img/background.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	opacity:1;
+}
+
+
+.jumbotron h1 {
+	color: #FFFFFF;
+	font-size:90px;
+	display:auto;
+	 text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    opacity:1;
+}
+
+.text-left{
+	margin-left:-30px;
+}
+
+.text-right{
+	padding-left:30px;
+}
+
+.middle{
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.text-left p{
+	margin-left:15px;
+	text-align: center;
+}
+
+
+.text-right p{
+	margin-right:0px;
+	text-align: center;
+}
+
+.text {
+    position: absolute;
+    color:#000;
+    background-color:rgba(255,255,255,0.8);
+    width: 320px;
+    height: 167px;
+    line-height:175px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.text:hover{
+   opacity:.8;
+}
+
+ul{
+	list-style:none;
+}
+
+h1{
+	margin:25px 0 20px 0;
+}
+
+h3{
+	margin:25px 0 20px 0;
+}
+
+.content h2{
+	margin:15px 0 15px 0;
+	font-weight:bold;
+}
+
+.content h3{
+	margin:15px 0 10px 0;
+}
+
+.content h4{
+	margin:15px 0 15px 0;
+}
+
+.about{
+	font-size:12px;
+	margin:45px 0 50px 0;
+	font-family:Calibri;
+}
+.about li{
+	display:inline;	
+}
+
+.sidebar{
+	padding:0 20px 0 20px;
+	text-align:center;
+	border:#000000 2px solid;
+}
+.fix {
+    display: table;
+    border-collapse:separate;
+    border-spacing:3px;
+}
+
+.sidebar, .content {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.content{
+	background-color:#FAFAFA;
+	padding-left:30px;
+
+}
+
+.intro{
+	border-radius:50%;
+	height:250px;
+	width:250px;
+}
+
+.delineations{
+	border-bottom:#000000 2px dotted;
+	display:block;
+	margin:none;
+}
+
+.infopic{
+	float:left;
+	margin-right:15px;
+}
+
+.event{
+	margin-bottom:25px;
+	min-height:150px;
+	width:800px;
+}
+
+.event p{
+	padding-left:265px;
+}
+
+.itinerary{
+	background-color:#ECF8F8;
+	margin:10px 1px 10px 1px;
+	border-radius:5px;
+}
+
+.itinerary h3{
+	text-indent:10px;
+	font-weight:bold;
+}
+
+.itinerary img{
+	border-radius:50%;
+}
+
+#take3{
+	padding-right:85px;
+}
+
+.recommendation{
+	margin-left:25px;
+	margin-right:-20px;
+}
+
+.description{
+	padding-left:20px;
+	text-align:center;
+}
+
+.plussign{
+	margin-top:40px;
+}
